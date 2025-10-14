@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A wide, futuristic shot of a floating farm with lush greenery under a geometric solar panel roof.",
+      "imageUrl": "https://picsum.photos/seed/hero-bg/1920/1080",
+      "imageHint": "futuristic farm"
+    },
+    {
+      "id": "tech-pods",
+      "description": "Close up of vertical aeroponic pods with plants growing.",
+      "imageUrl": "https://picsum.photos/seed/tech-pods/600/400",
+      "imageHint": "aeroponic pods"
+    },
+    {
+      "id": "tech-conveyor",
+      "description": "An automated conveyor belt system moving trays of plants.",
+      "imageUrl": "https://picsum.photos/seed/tech-conveyor/600/400",
+      "imageHint": "automated conveyor"
+    },
+    {
+      "id": "tech-solar",
+      "description": "A shot of the expansive solar panel covers on the farm.",
+      "imageUrl": "https://picsum.photos/seed/tech-solar/600/400",
+      "imageHint": "solar panels"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Professional headshot of a team member.",
+      "imageUrl": "https://picsum.photos/seed/team-1/200/200",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Professional headshot of another team member.",
+      "imageUrl": "https://picsum.photos/seed/team-2/200/200",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Professional headshot of a third team member.",
+      "imageUrl": "https://picsum.photos/seed/team-3/200/200",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "blog-post-1",
+      "description": "Image for a blog post about water sustainability.",
+      "imageUrl": "https://picsum.photos/seed/blog-1/600/400",
+      "imageHint": "water drops"
+    },
+    {
+      "id": "blog-post-2",
+      "description": "Image for a blog post about crop yields.",
+      "imageUrl": "https://picsum.photos/seed/blog-2/600/400",
+      "imageHint": "fresh vegetables"
+    },
+    {
+      "id": "blog-post-3",
+      "description": "Image for a blog post about agricultural technology.",
+      "imageUrl": "https://picsum.photos/seed/blog-3/600/400",
+      "imageHint": "futuristic agriculture"
+    },
+    {
+      "id": "blog-post-4",
+      "description": "Image for a blog post about AI in agriculture.",
+      "imageUrl": "https://picsum.photos/seed/blog-4/600/400",
+      "imageHint": "ai agriculture"
+    }
+  ]
+}
