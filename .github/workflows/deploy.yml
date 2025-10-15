@@ -27,6 +27,8 @@ jobs:
 
       - name: Build static site
         run: npm run build  # 'output: export' already generates ./out
+         # Add .nojekyll so GitHub Pages serves _next/ properly
+        touch ./out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
