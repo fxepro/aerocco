@@ -1,11 +1,11 @@
 import type { NextConfig } from 'next';
 
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isGithubPages ? '/aerocco' : '',
-  assetPrefix: isGithubPages ? '/aerocco/' : '',
+  basePath: isProd ? '/aerocco' : '',
+  assetPrefix: isProd ? '/aerocco/' : '',
   trailingSlash: true,
   images: {
     unoptimized: true,
