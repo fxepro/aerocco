@@ -7,7 +7,7 @@
     "build": "cross-env NODE_ENV=production next build",
     "serve": "npx serve out -s -l 3000",
     "serve-no-prefix": "cross-env NODE_ENV=development npm run build && npx serve out -s -l 3001",
-    "deploy": "npm run build",
+    "deploy": "npx cross-env GITHUB_PAGES=false npm run build",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
